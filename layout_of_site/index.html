@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stackoverflow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container c1">
+        <div class="row">
+            <div class="col-4 indent center">
+                <h2>Stackoverflow</h2>
+            </div>
+            <div class="col-4 indent">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1">&#128270</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+            </div>
+            <div class="col-2 indent"></div>
+            <div class="col-1 indent">
+                <a href="#">log in</a>
+            </div>
+            <div class="col-1 indent">
+                <a href="#">register</a>
+            </div>
+        </div>
+    </div>
+    <hr style="width: 100%; float: left"></hr>
+    <div class="container c2">
+        <i1><img src="#"></img></i1>
+        <div style="width: 65px">
+            <p1><p><a id="clicks1">0</a></p></p1>
+            <div style="float: right">
+                <b1><button onClick="onClickIncrease1()">+</button></b1>
+                <b1><button onClick="onClickDecrease1()">-</button></b1>
+            </div>
+        </div>
+    </div>
+    <div class="container c3">
+        <h2>How to build a moon park?</h2>
+        <p>Lorem ipsum - dolor sit amet, consectetuer
+        adipiscing elit, sed diam nonummy nibh euismod
+        tincidunt ut laoreet dolore magna aliquam erat
+        volutpat. Ut wisi enim ad minim veniam, quis nostrud
+        exerci tation ullamcorper suscipit labortis nisl ut
+        aliquip ex ea commodo consequat.</p>
+        <p>Tags: <a href="#">black-jack</a> <a href="#">bender</a></p>
+    </div>
+    <hr style="width: 80%; position: absolute; top: 40%"></hr>
+    <div class="container c4">
+        <h2>Popular tags</h2>
+        <div class="row">
+            <div class="col-4">coursera</div>
+            <div class="col-4">python</div>
+        </div>
+        <div class="row">
+            <div class="col-4">mysql</div>
+            <div class="col-4">django</div>
+        </div>
+    </div>
+    <div class="container c5">
+        <h2>Best members</h2>
+        <div class="link">
+            <a href="#">Mr. Freeman</a>
+        </div>
+        <div class="link">
+            <a href="#">Dr. House</a>
+        </div>
+        <div class="link">
+            <a href="#">Bender</a>
+        </div>
+        <div class="link">
+            <a href="#">Queen Victoria</a>
+        </div>
+    </div>
+    <div class="container c6">
+        <div style="float: left">
+            <i2><img src="#"></img></i2>
+            <div style="width: 65px">
+                <p1><p><a id="clicks2">0</a></p></p1>
+                <div style="float: right">
+                    <b1><button onClick="onClickIncrease2()">+</button></b1>
+                    <b1><button onClick="onClickDecrease2()">-</button></b1>
+                </div>
+            </div>
+        </div>
+        <div style="width: 1000px; float: right">
+            <p>First of all I would like to thank you for the
+            invitation to participate in such a ... Russia is the
+            huge territory which in many respects needs to
+            be render habitable.</p>
+        </div>
+    </div>
+    <div class="container c7">
+        <div style="float: left">
+            <i2><img src="#"></img></i2>
+            <div style="width: 65px">
+                <p1><p><a id="clicks3">0</a></p></p1>
+                <div style="float: right">
+                    <b1><button onClick="onClickIncrease3()">+</button></b1>
+                    <b1><button onClick="onClickDecrease3()">-</button></b1>
+                </div>
+            </div>
+        </div>
+        <div style="width: 1000px; float: right">
+            <p>First of all I would like to thank you for the
+            invitation to participate in such a ... Russia is the
+            huge territory which in many respects needs to
+            be render habitable.</p>
+        </div>
+    </div>
+    <hr style="width: 80%; position: absolute; top: 92%"></hr>
+    <div class="container c8">
+        <textarea>Enter your answer here...</textarea>
+        <b2><button>Answer</button></b2>
+    </div>
+    <script type="text/javascript">
+        var clicks1 = 0;
+        function onClickIncrease1() {
+            clicks1 += 1;
+            document.getElementById("clicks1").innerHTML = clicks1;
+        };
+    </script>
+    <script type="text/javascript">
+        var clicks2 = 0;
+        function onClickIncrease2() {
+            clicks2 += 1;
+            document.getElementById("clicks2").innerHTML = clicks2;
+        };
+    </script>
+    <script type="text/javascript">
+        var clicks3 = 0;
+        function onClickIncrease3() {
+            clicks3 += 1;
+            document.getElementById("clicks3").innerHTML = clicks3;
+        };
+    </script>
+    <script type="text/javascript">
+        function onClickDecrease1() {
+            if (clicks1 > 0) {
+                clicks1 -= 1;
+            }
+            document.getElementById("clicks1").innerHTML = clicks1;
+        };
+    </script>
+    <script type="text/javascript">
+        function onClickDecrease2() {
+            if (clicks2 > 0) {
+                clicks2 -= 1;
+            }
+            document.getElementById("clicks2").innerHTML = clicks2;
+        };
+    </script>
+    <script type="text/javascript">
+        function onClickDecrease3() {
+            if (clicks3 > 0) {
+                clicks3 -= 1;
+            }
+            document.getElementById("clicks3").innerHTML = clicks3;
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>

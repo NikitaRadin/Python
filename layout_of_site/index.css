@@ -1,0 +1,122 @@
+.c1 {
+    width: 100%;
+    height: 10%;
+    float: left;
+}
+
+.c2 {
+    width: 12%;
+    height: 15%;
+    float: left;
+}
+
+.c3 {
+    width: 68%;
+    height: 15%;
+    float: left;
+}
+
+.c4 {
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+.c5 {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-top: 3%
+}
+
+.c6 {
+    width: 80%;
+    height: 20%;
+    border: 1px solid;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.c7 {
+    width: 80%;
+    height: 20%;
+    border: 1px solid;
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.c8 {
+    width: 80%;
+    height: 35%;
+    float: left;
+    margin-left: 0%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.indent {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.link {
+    margin: 2%;
+}
+
+i1 img {
+    width: 150px;
+    height: 150px;
+}
+
+p1 p {
+    width: 40px;
+    height: 36px;
+    border: 1px solid;
+    float: left;
+}
+
+b1 button {
+    width: 25px;
+    height: 18px;
+    display: block;
+}
+
+i2 img {
+    width: 100px;
+    height: 100px;
+}
+
+textarea {
+    width: 100%;
+    height: 60%;
+    margin-top: 15px;
+}
+
+b2 button {
+    width: 150px;
+    height: 20%;
+}
